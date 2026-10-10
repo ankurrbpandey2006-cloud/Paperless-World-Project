@@ -1,0 +1,6 @@
+@echo off
+echo Compiling tests...
+javac --release 17 -cp "bin;lib/*" -d bin test\com\paperless\PaperlessTest.java
+if errorlevel 1 exit /b 1
+echo Running 15 tests...
+java -cp "bin;lib/*" org.junit.runner.JUnitCore com.paperless.PaperlessTest

@@ -1,0 +1,27 @@
+# Build output
+bin/
+out/
+
+# H2 file database (generated on run)
+data/
+*.db
+*.mv.db
+*.trace.db
+*.lock.db
+
+# IDE
+.idea/
+*.iml
+.settings/
+.classpath
+.project
+.vscode/.ropeproject
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
