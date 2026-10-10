@@ -3,5 +3,6 @@
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
-    ]
+    ],
+    "git.path": "C:\\Program Files\\Git\\cmd\\git.exe"
 }
